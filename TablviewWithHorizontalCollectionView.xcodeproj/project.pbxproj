@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E1BC415A2017802C006B02EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC41592017802C006B02EC /* AppDelegate.swift */; };
-		E1BC415C2017802C006B02EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC415B2017802C006B02EC /* ViewController.swift */; };
 		E1BC415F2017802C006B02EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BC415D2017802C006B02EC /* Main.storyboard */; };
 		E1BC41612017802C006B02EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BC41602017802C006B02EC /* Assets.xcassets */; };
 		E1BC41642017802C006B02EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BC41622017802C006B02EC /* LaunchScreen.storyboard */; };
 		E1BC416F2017802C006B02EC /* TablviewWithHorizontalCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC416E2017802C006B02EC /* TablviewWithHorizontalCollectionViewTests.swift */; };
 		E1BC417A2017802C006B02EC /* TablviewWithHorizontalCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC41792017802C006B02EC /* TablviewWithHorizontalCollectionViewUITests.swift */; };
+		E1BC4188201780A8006B02EC /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC4187201780A8006B02EC /* MyTableViewController.swift */; };
+		E1BC418A201781D9006B02EC /* DropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC4189201781D9006B02EC /* DropDownTableViewCell.swift */; };
+		E1BC418C20178212006B02EC /* YearsAndMonthsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC418B20178212006B02EC /* YearsAndMonthsTableViewCell.swift */; };
+		E1BC418E20178229006B02EC /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC418D20178229006B02EC /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		E1BC41562017802C006B02EC /* TablviewWithHorizontalCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablviewWithHorizontalCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BC41592017802C006B02EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1BC415B2017802C006B02EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1BC415E2017802C006B02EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1BC41602017802C006B02EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BC41632017802C006B02EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		E1BC41752017802C006B02EC /* TablviewWithHorizontalCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablviewWithHorizontalCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BC41792017802C006B02EC /* TablviewWithHorizontalCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablviewWithHorizontalCollectionViewUITests.swift; sourceTree = "<group>"; };
 		E1BC417B2017802C006B02EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BC4187201780A8006B02EC /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		E1BC4189201781D9006B02EC /* DropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownTableViewCell.swift; sourceTree = "<group>"; };
+		E1BC418B20178212006B02EC /* YearsAndMonthsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsAndMonthsTableViewCell.swift; sourceTree = "<group>"; };
+		E1BC418D20178229006B02EC /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				E1BC41592017802C006B02EC /* AppDelegate.swift */,
-				E1BC415B2017802C006B02EC /* ViewController.swift */,
+				E1BC4187201780A8006B02EC /* MyTableViewController.swift */,
+				E1BC4189201781D9006B02EC /* DropDownTableViewCell.swift */,
+				E1BC418B20178212006B02EC /* YearsAndMonthsTableViewCell.swift */,
+				E1BC418D20178229006B02EC /* CustomCollectionViewCell.swift */,
 				E1BC415D2017802C006B02EC /* Main.storyboard */,
 				E1BC41602017802C006B02EC /* Assets.xcassets */,
 				E1BC41622017802C006B02EC /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BC415C2017802C006B02EC /* ViewController.swift in Sources */,
 				E1BC415A2017802C006B02EC /* AppDelegate.swift in Sources */,
+				E1BC418E20178229006B02EC /* CustomCollectionViewCell.swift in Sources */,
+				E1BC418C20178212006B02EC /* YearsAndMonthsTableViewCell.swift in Sources */,
+				E1BC418A201781D9006B02EC /* DropDownTableViewCell.swift in Sources */,
+				E1BC4188201780A8006B02EC /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
